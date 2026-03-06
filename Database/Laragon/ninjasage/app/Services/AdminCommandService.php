@@ -319,14 +319,14 @@ class AdminCommandService
         return ['success' => true, 'message' => "Granted {$count} new deal items to {$char->name}."];
     }
 
-            private function giveAllCrewItems(Character $char): array
+        private function giveAllCrewItems(Character $char): array
     {
         $items = Item::where('category', 'crew')->pluck('item_id');
         $count = 0;
         foreach ($items as $itemId) {
             $item = CharacterItem::firstOrCreate(
                 ['character_id' => $char->id, 'item_id' => $itemId],
-                ['quantity' => 1, 'category' => 'crew']
+                ['quantity' => 1, 'category' => $this->resolveInventoryCategory($itemId)]
             );
             if ($item->wasRecentlyCreated) {
                 $count++;
@@ -335,20 +335,32 @@ class AdminCommandService
         return ['success' => true, 'message' => "Granted {$count} new crew items to {$char->name}."];
     }
 
-            private function giveAllClanItems(Character $char): array
+    private function giveAllClanItems(Character $char): array
     {
         $items = Item::where('category', 'clan')->pluck('item_id');
         $count = 0;
         foreach ($items as $itemId) {
             $item = CharacterItem::firstOrCreate(
                 ['character_id' => $char->id, 'item_id' => $itemId],
-                ['quantity' => 1, 'category' => 'clan']
+                ['quantity' => 1, 'category' => $this->resolveInventoryCategory($itemId)]
             );
             if ($item->wasRecentlyCreated) {
                 $count++;
             }
         }
         return ['success' => true, 'message' => "Granted {$count} new clan items to {$char->name}."];
+    }
+
+    private function resolveInventoryCategory(string $itemId): string
+    {
+        if (str_starts_with($itemId, 'wpn_'))       return 'weapon';
+        if (str_starts_with($itemId, 'back_'))      return 'back';
+        if (str_starts_with($itemId, 'set_'))       return 'set';
+        if (str_starts_with($itemId, 'hair_'))      return 'hair';
+        if (str_starts_with($itemId, 'accessory_')) return 'accessory';
+        if (str_starts_with($itemId, 'material_'))  return 'material';
+        if (str_starts_with($itemId, 'essential_')) return 'essential';
+        return 'item';
     }
 
                 private function giveAllAccessoryItems(Character $char): array
