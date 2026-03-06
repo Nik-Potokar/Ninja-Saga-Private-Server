@@ -60,7 +60,31 @@ Files to copy:
 - `clan.ninjasage.id.conf`
 - `crew.ninjasage.id.conf`
 
+#### Copy the SSL certificates
+
+The `clan` and `crew` vhosts use per-domain SSL certificates included in the repo. Copy all four files from `Database/etc/ssl/` into Laragon's SSL folder:
+
+```
+C:\laragon\etc\ssl\
+```
+
+Files to copy:
+- `clan.ninjasage.id.pem`
+- `clan.ninjasage.id-key.pem`
+- `crew.ninjasage.id.pem`
+- `crew.ninjasage.id-key.pem`
+
 Then enable SSL: in the Laragon window, right-click the **Apache** entry and select **SSL → Enable**. Laragon will restart Apache automatically.
+
+#### Troubleshooting: Apache fails to start after copying vhost configs
+
+**Error: `Cannot access directory .../ninjasage/logs/`**
+
+Apache requires the log directory to exist before it will start. Create it manually:
+
+```
+C:\laragon\www\ninjasage\logs\
+```
 
 ---
 
@@ -127,10 +151,6 @@ If you see this error:
 
 ```
 Your lock file does not contain a compatible set of packages. Please run composer update.
-```
-Or something like this
-```
-The "zip" extension is required to use Composer
 ```
 
 A required PHP extension is likely disabled. The most common fix is enabling the `zip` extension:
