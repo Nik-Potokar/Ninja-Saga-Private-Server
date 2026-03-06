@@ -86,6 +86,7 @@ return new class extends Migration
                 'type'       => 'feature',
                 'active'     => true,
                 'sort_order' => 5,
+                'image_url' => '',
                 'data'       => $defaultData,
                 'created_at' => now(),
                 'updated_at' => now(),

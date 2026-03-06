@@ -94,6 +94,7 @@ return new class extends Migration
                 'panel'      => 'DailyGacha',
                 'type'       => 'feature',
                 'active'     => true,
+                'image_url' => '',
                 'sort_order' => 4,
                 'data'       => json_encode($this->defaultData()),
                 'created_at' => now(),
