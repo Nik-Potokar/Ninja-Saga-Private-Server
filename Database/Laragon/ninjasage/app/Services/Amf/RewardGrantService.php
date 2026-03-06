@@ -7,6 +7,7 @@ use App\Models\CharacterItem;
 use App\Models\CharacterPet;
 use App\Models\CharacterSkill;
 use App\Models\Item;
+use App\Models\Skill;
 use App\Models\XP;
 
 class RewardGrantService
@@ -100,6 +101,9 @@ class RewardGrantService
         }
 
         if (str_starts_with($rewardId, 'skill_')) {
+            if (!Skill::where('skill_id', $rewardId)->exists()) {
+                return false;
+            }
             if (!CharacterSkill::where('character_id', $char->id)->where('skill_id', $rewardId)->exists()) {
                 CharacterSkill::create(['character_id' => $char->id, 'skill_id' => $rewardId]);
             }
