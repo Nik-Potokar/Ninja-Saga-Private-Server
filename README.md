@@ -347,3 +347,18 @@ To rebuild or patch the client, use the Python tools in the `QoL Tools/` folder:
 Open a terminal in the server folder and run `php artisan tinker` to interact with the database directly.
 
 See `Database/Laragon/ninjasage/Documentation/Commands.txt` for example commands to add items, skills, pets, and more to characters.
+
+---
+
+## Special Features
+
+You can replay Ninja exams by setting your character level to one of the following:
+
+| Exam Type             | Level |
+|-----------------------|-------|
+| Chunin Exam           | 101   |
+| Jounin Exam           | 102   |
+| Special Jounin Exam   | 103   |
+| Tutor Exam            | 104   |
+
+> **Tip:** Set your level to the corresponding value to unlock and replay the exam of your choice.
