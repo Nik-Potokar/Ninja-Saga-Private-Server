@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<application xmlns="http://ns.adobe.com/air/application/51.1">
+  <id>id.ninjasage</id>
+  <versionNumber>0.55</versionNumber>
+  <versionLabel>0.55.1</versionLabel>
+  <filename>NSCUSTOM</filename>
+  <description>Ninja Sage is a turn-based RPG with strategic ninja battles and skills.</description>
+  <name>NSCUSTOM</name>
+  <copyright />
+  <initialWindow>
+    <content>NinjaSage.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>direct</renderMode>
+    <autoOrients>false</autoOrients>
+    <width>1280</width>
+    <height>720</height>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+    <allowLowQuality>true</allowLowQuality>
+  </initialWindow>
+  <icon>
+    <image16x16>AppIconsForPublish/icon-16x16.png</image16x16>
+    <image29x29>AppIconsForPublish/icon-29x29.png</image29x29>
+    <image32x32>AppIconsForPublish/icon-32x32.png</image32x32>
+    <image36x36>AppIconsForPublish/icon-36x36.png</image36x36>
+    <image40x40>AppIconsForPublish/icon-40x40.png</image40x40>
+    <image48x48>AppIconsForPublish/icon-48x48.png</image48x48>
+    <image57x57>AppIconsForPublish/icon-57x57.png</image57x57>
+    <image58x58>AppIconsForPublish/icon-58x58.png</image58x58>
+    <image60x60>AppIconsForPublish/icon-60x60.png</image60x60>
+    <image72x72>AppIconsForPublish/icon-72x72.png</image72x72>
+    <image76x76>AppIconsForPublish/icon-76x76.png</image76x76>
+    <image80x80>AppIconsForPublish/icon-80x80.png</image80x80>
+    <image87x87>AppIconsForPublish/icon-87x87.png</image87x87>
+    <image114x114>AppIconsForPublish/icon-114x114.png</image114x114>
+    <image120x120>AppIconsForPublish/icon-120x120.png</image120x120>
+    <image128x128>AppIconsForPublish/icon-128x128.png</image128x128>
+    <image144x144>AppIconsForPublish/icon-144x144.png</image144x144>
+    <image152x152>AppIconsForPublish/icon-152x152.png</image152x152>
+    <image167x167>AppIconsForPublish/icon-167x167.png</image167x167>
+    <image180x180>AppIconsForPublish/icon-180x180.png</image180x180>
+    <image512x512>AppIconsForPublish/icon-512x512.png</image512x512>
+    <image1024x1024>AppIconsForPublish/icon-1024x1024.png</image1024x1024>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice </supportedProfiles>
+  <supportedLanguages>en</supportedLanguages>
+  <android>
+    <manifestAdditions>&lt;manifest&gt;
+      &lt;uses-sdk android:minSdkVersion="24" android:targetSdkVersion="34"/&gt;
+      &lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+      &lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;
+      &lt;application android:hardwareAccelerated="true" /&gt;
+    &lt;/manifest&gt;</manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions>
+  &lt;key&gt;UIDeviceFamily&lt;/key&gt;
+  &lt;array&gt;
+    &lt;string&gt;1&lt;/string&gt;
+    &lt;string&gt;2&lt;/string&gt;
+  &lt;/array&gt;
+  &lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+  &lt;string&gt;LaunchScreen&lt;/string&gt;</InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+</application>

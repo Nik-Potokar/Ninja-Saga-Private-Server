@@ -1,0 +1,1993 @@
+[
+    {
+        "enemies": [
+            "ene_01"
+        ],
+        "bg": "mission_01",
+        "id": "msn_1",
+        "grade": "c",
+        "name": "Hardworking Ninja",
+        "level": 1,
+        "description": "Shin is the tutor of Academy. He probably can show you some moves if he sees potential.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Shin-Left",
+                "dialog": "You are [character_name], right? I am the tutor of this Academy, Shin. Defeat the training dummy and show me what you got."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 20,
+            "gold": 20
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_03"
+        ],
+        "bg": "mission_02",
+        "id": "msn_2",
+        "grade": "c",
+        "name": "Blacksmith's Request",
+        "level": 2,
+        "description": "Retrieve Kenta's precious weapon that was stolen by Ninja Bandits.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Kenta-Left",
+                "dialog": "Hi [character name]! I am Kenta, the famous ninja blacksmith of Fire Village."
+            },
+            {
+                "character": "Kenta-Left",
+                "dialog": "I have a mission for you. "
+            },
+            {
+                "character": "Kenta-Left",
+                "dialog": " My weapon was stolen. Could you get it back for me?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 40,
+            "gold": 40
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_04"
+        ],
+        "bg": "mission_02",
+        "id": "msn_3",
+        "grade": "c",
+        "name": "Confidential Document",
+        "level": 3,
+        "description": "Deliver the document to the destination. Beware of assassins.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yudai-Left",
+                "dialog": "Deliver the confidential letter to the Black Ops centre outside the village. Enemies may attack you. Be careful!"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 60,
+            "gold": 60
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_05"
+        ],
+        "bg": "mission_02",
+        "id": "msn_4",
+        "grade": "c",
+        "name": "Weaver's Request",
+        "level": 4,
+        "description": "Retrieve Mai's Golden Silk taken by Female Ninja Bandits.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Mai-Left",
+                "dialog": "Hi [character name]! I am Mai! I used to be a ninja just like you, but I decided to carry on with our family business. Weaving ninja cloths has been a tradition in our family."
+            },
+            {
+                "character": "Mai-Left",
+                "dialog": "Yesterday, a group of female ninja stole the Golden Silk from my home. It is the most expensive silk! Can you take it back for me?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 80,
+            "gold": 80
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_07"
+        ],
+        "bg": "mission_02",
+        "id": "msn_5",
+        "grade": "c",
+        "name": "Conflicts with the Samurai",
+        "level": 5,
+        "description": "Ninja and samurai have been rivals for a long time. Recently, the confrontation has meet its climax!",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Shin-Left",
+                "dialog": "Recently our conflict with the samurai has intensified! A few samurai just broke into the village and created disturbances! Dispatch them, quick!"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 100,
+            "gold": 100
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_04"
+        ],
+        "bg": "mission_03",
+        "id": "msn_6",
+        "grade": "c",
+        "name": "Michi's Request",
+        "level": 6,
+        "description": "Deliver Michi's medical supplies to the neighboring town.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Michi-Left",
+                "dialog": "Hi [character_name]! I am Michi, the head nurse of the village."
+            },
+            {
+                "character": "Michi-Left",
+                "dialog": "Please help us to deliver some medical supplies to the neighboring town. They are suffering from a shortage."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 120,
+            "gold": 120
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_04"
+        ],
+        "bg": "mission_04",
+        "id": "msn_7",
+        "grade": "c",
+        "name": "Yuna's Request",
+        "level": 7,
+        "description": "Deliver some Sweet Dangos.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yuna-Left",
+                "dialog": "[Character_name], I am Yuna, I make delicious Dango and Onigiri. I am also good at making ramen. If ramen is your thing, maybe you should try mine."
+            },
+            {
+                "character": "Yuna-Left",
+                "dialog": "There is a festival in the neighbouring town. Can you deliver these dangos to my dad? He is in the festival."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 140,
+            "gold": 140
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_08",
+            "ene_09"
+        ],
+        "bg": "mission_03",
+        "id": "msn_8",
+        "grade": "c",
+        "name": "Find the Antidote",
+        "level": 8,
+        "description": "Defeat the enemies and get the antidote from them.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "BlackOpsUnit-Left",
+                "dialog": "We were just seized outside the village... some of us are poisoned by their weapons... Get us the antidote! Go!"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 180,
+            "gold": 160
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_03"
+        ],
+        "bg": "mission_02",
+        "id": "msn_9",
+        "grade": "c",
+        "name": "Grandmother's Gift",
+        "level": 9,
+        "description": "Help Aiko's grandmother buy a gift for her.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Chiyo-Left",
+                "dialog": "Hello, can you help me buy a Pearl Kunai for Aiko? It is her birthday tomorrow."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 200,
+            "gold": 180
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_14",
+            "ene_15"
+        ],
+        "bg": "mission_04",
+        "id": "msn_10",
+        "grade": "c",
+        "name": "Fake Worshippers",
+        "level": 10,
+        "description": "Save the White Monk's temple from the Wandering Monks.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Genzu-Left",
+                "dialog": "I have a mission for you. The White Monks have come to us for help. The Wandering Monks have been disturbing their temple."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 240,
+            "gold": 200
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_10",
+            "ene_11",
+            "ene_12"
+        ],
+        "bg": "mission_05",
+        "id": "msn_11",
+        "grade": "c",
+        "name": "Attack from Ninja Pirates",
+        "level": 11,
+        "description": "Protect the Merchant Ships",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yudai-Left",
+                "dialog": "A group of Ninja Pirates are attacking the Merchant ships now! Some ninjas have already been there fighting the Pirates. Go there and assist them!"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 300,
+            "gold": 220
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_47",
+            "ene_47"
+        ],
+        "bg": "mission_26",
+        "id": "msn_12",
+        "grade": "c",
+        "name": "Kusuma's Request",
+        "level": 12,
+        "description": "Kusuma is extorted by hooligans. He wants you to defeat them.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Kusuma-Left",
+                "dialog": "Good... Good morning. I am Kusuma, the store owner. A group of hooligans threatened to burn down my store unless I pay them a lot of Gold."
+            },
+            {
+                "character": "Kusuma-Left",
+                "dialog": "They will be back in a moment. Can you help me cast them away?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 340,
+            "gold": 245
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_04",
+            "ene_05"
+        ],
+        "bg": "mission_09",
+        "id": "msn_13",
+        "grade": "c",
+        "name": "Kage's Son",
+        "level": 13,
+        "description": "Save Norobi from the kidnappers.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Chiyo-Left",
+                "dialog": "Yudai and I are very worried... being the son of the Hokage might bring him danger... we are afraid the Hokages enemies would kidnap Norobi as revenge. Can you help me to look for him?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 380,
+            "gold": 270
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_07",
+            "ene_07"
+        ],
+        "bg": "mission_09",
+        "id": "msn_14",
+        "grade": "c",
+        "name": "It's the Samurai Again",
+        "level": 14,
+        "description": "Oldest Ninja rivals, the samurais are disturbing our villagers again!",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yudai-Left",
+                "dialog": "Hi [character name]. The samurais are back. They have gathered outside the temple and are trying to create disturbances. Please cast them away."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 420,
+            "gold": 300
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_38",
+            "ene_03"
+        ],
+        "bg": "mission_09",
+        "id": "msn_15",
+        "grade": "c",
+        "name": "Assassinate the Ninja Spy Leader",
+        "level": 15,
+        "description": "Assassinate the Ninja Spy Leader who wants to attack our village.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Genzu-Left",
+                "dialog": "We have located the leader of the ninja spy. He is in the forest. Assassinate him."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 460,
+            "gold": 330
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_02",
+            "ene_02"
+        ],
+        "bg": "mission_06",
+        "id": "msn_16",
+        "grade": "c",
+        "name": "Undead Marionette",
+        "level": 16,
+        "description": "Three undead Marionette have appeared in the street! Hokage wants you to eliminate them... wait, why are the Marionette there?",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yudai-Left",
+                "dialog": "There are some unknown weird-looking creatures are wandering in the village and have frightened the villagers. I want you to eliminate them. Catch them alive if possible, I want to investigate what kind of creatures they are."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 500,
+            "gold": 360
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_28",
+            "ene_28"
+        ],
+        "bg": "mission_03",
+        "id": "msn_17",
+        "grade": "c",
+        "name": "Kenta's Favor",
+        "level": 17,
+        "description": "Kenta wants you to get him a special white stone. The function of the stone is still a secret.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Kenta-Left",
+                "dialog": "It is good to see you again! I am making a new weapon but I need a special white stone. It is very rare but it can be found in the forest. Careful, some fierce beasts lurk in that area."
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 540,
+            "gold": 400
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_47",
+            "ene_60"
+        ],
+        "bg": "mission_02",
+        "id": "msn_18",
+        "grade": "c",
+        "name": "Trouble from Hooligans",
+        "level": 18,
+        "description": "Yuna's restaurant is disturbed by hooligans. Help her to expel the villians.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Yuna-Left",
+                "dialog": "I need your help again. Recently, a group of hooligans have been disturbing my restaurant! They refused to pay for what they ate!"
+            },
+            {
+                "character": "Yuna-Left",
+                "dialog": "When I asked them for the Gold, they just destroyed the tables and chairs! They are such a trouble! Can you help me to expel them?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 580,
+            "gold": 440
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_04",
+            "ene_05"
+        ],
+        "bg": "mission_07",
+        "id": "msn_19",
+        "grade": "c",
+        "name": "Clear Main Artery",
+        "level": 19,
+        "description": "The ninja thieves are blocking the main artery. Cast them away.",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Mai-Left",
+                "dialog": " I need to deliver this newly-made gown to my client. But the ninja thieves have blocked the road. Can you clear it for me?"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 620,
+            "gold": 475
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_29",
+            "ene_31"
+        ],
+        "bg": "mission_08",
+        "id": "msn_20",
+        "grade": "c",
+        "name": "Troublesome Water Ninja",
+        "level": 20,
+        "description": "The young Water Ninja always disturb the ships on the port. Fight against them!",
+        "premium": false,
+        "dialogs": [
+            {
+                "character": "Genzu-Left",
+                "dialog": " Some young Water Ninjas always disturb the business ships in the nearby small village. They came to us for help. Teach the naughty Water Ninja a lesson!"
+            }
+        ],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 660,
+            "gold": 515
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_47",
+            "ene_51",
+            "ene_56"
+        ],
+        "bg": "mission_04",
+        "id": "msn_21",
+        "grade": "b",
+        "name": "Where are the Hooligans?",
+        "level": 21,
+        "description": "Shin found the hiding place of the hooligans. Help him catch the bad guys!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 720,
+            "gold": 545
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_48",
+            "ene_49"
+        ],
+        "bg": "mission_27",
+        "id": "msn_22",
+        "grade": "b",
+        "name": "Night Rebellion",
+        "level": 22,
+        "description": "In the world of ninja, night is not for rest, but fights!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 760,
+            "gold": 590
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_69",
+            "ene_69"
+        ],
+        "bg": "mission_27",
+        "id": "msn_23",
+        "grade": "b",
+        "name": "Canine Tooth Collection",
+        "level": 23,
+        "description": "Help Blacksmith Kenta collect canine tooth from beasts in the forest.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 780,
+            "gold": 635
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_39",
+            "ene_39"
+        ],
+        "bg": "mission_21",
+        "id": "msn_24",
+        "grade": "b",
+        "name": "Phantom Ninja",
+        "level": 24,
+        "description": "Pursuit with the Phantom Ninja.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 800,
+            "gold": 680
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_46",
+            "ene_46"
+        ],
+        "bg": "mission_24",
+        "id": "msn_25",
+        "grade": "b",
+        "name": "War with Samurai",
+        "level": 25,
+        "description": "The samurai has declared war on us.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 820,
+            "gold": 715
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_38",
+            "ene_35",
+            "ene_55"
+        ],
+        "bg": "mission_07",
+        "id": "msn_26",
+        "grade": "b",
+        "name": "The Ninja Assassinates",
+        "level": 26,
+        "description": "Assassination problem is serious. Look for the leader.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 860,
+            "gold": 750
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_28",
+            "ene_28"
+        ],
+        "bg": "mission_30",
+        "id": "msn_27",
+        "grade": "b",
+        "name": "Zuka's Request",
+        "level": 27,
+        "description": "Zuka, the bloodline user from the Snow Village needs your help!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 900,
+            "gold": 790
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_31",
+            "ene_31"
+        ],
+        "bg": "mission_33",
+        "id": "msn_28",
+        "grade": "b",
+        "name": "Toxic Crisis",
+        "level": 28,
+        "description": "Toxic ninja are planning to hurt the villagers!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 940,
+            "gold": 835
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_62",
+            "ene_72"
+        ],
+        "bg": "mission_31",
+        "id": "msn_29",
+        "grade": "b",
+        "name": "Medicine Research",
+        "level": 29,
+        "description": "Michi is requesting for a sample of Wind Village's new medicine.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 980,
+            "gold": 885
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_02",
+            "ene_57",
+            "ene_40"
+        ],
+        "bg": "mission_06",
+        "id": "msn_30",
+        "grade": "b",
+        "name": "Crazy Marionette",
+        "level": 30,
+        "description": "Marionettes appear in the village again! It must be Ken's great job!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1040,
+            "gold": 940
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_33",
+            "ene_16",
+            "ene_18"
+        ],
+        "bg": "mission_32",
+        "id": "msn_31",
+        "grade": "b",
+        "name": "The Secret Package from Yuna",
+        "level": 31,
+        "description": "Yuna has a secret package for Mizukage... what could that be?",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1100,
+            "gold": 1000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_36",
+            "ene_36"
+        ],
+        "bg": "mission_30",
+        "id": "msn_32",
+        "grade": "b",
+        "name": "Help the Snow Village",
+        "level": 32,
+        "description": "Yuna has a secret package for Mizukage... what could that be?",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1200,
+            "gold": 1065
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_74",
+            "ene_73",
+            "ene_74"
+        ],
+        "bg": "mission_24",
+        "id": "msn_33",
+        "grade": "b",
+        "name": "The Skeletons",
+        "level": 33,
+        "description": "It's time to clean up mess for Ken again!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1200,
+            "gold": 1135
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_75",
+            "ene_20",
+            "ene_21"
+        ],
+        "bg": "mission_03",
+        "id": "msn_34",
+        "grade": "b",
+        "name": "Escaped Prisoner - Hanjiro",
+        "level": 34,
+        "description": "Catch the escaped Hanjiro.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1260,
+            "gold": 1220
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_10",
+            "ene_11",
+            "ene_12"
+        ],
+        "bg": "mission_05",
+        "id": "msn_35",
+        "grade": "b",
+        "name": "Escort Kaiza",
+        "level": 35,
+        "description": "Kaiza needs a ninja to escort him to the Village of Water.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1320,
+            "gold": 1310
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_43",
+            "ene_44",
+            "ene_44"
+        ],
+        "bg": "mission_33",
+        "id": "msn_36",
+        "grade": "b",
+        "name": "Wind Village Defend",
+        "level": 36,
+        "description": "Wind village is under attack! However, Kazekage is having a meeting in Lightning Village.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1380,
+            "gold": 1400
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_08",
+            "ene_08",
+            "ene_08"
+        ],
+        "bg": "mission_03",
+        "id": "msn_37",
+        "grade": "b",
+        "name": "Urgent Request from Michi",
+        "level": 37,
+        "description": "Deliver Michi's medicines to the injured black ops.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1440,
+            "gold": 1490
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_76",
+            "ene_56",
+            "ene_56"
+        ],
+        "bg": "mission_06",
+        "id": "msn_38",
+        "grade": "b",
+        "name": "Violent Hooligans",
+        "level": 38,
+        "description": "Violent hooligans are destroying the village! Please stop them.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1500,
+            "gold": 1580
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_77",
+            "ene_77"
+        ],
+        "bg": "mission_31",
+        "id": "msn_39",
+        "grade": "b",
+        "name": "Merchant Assassination",
+        "level": 39,
+        "description": "Capture the unsuccessful assassin who was ordered to assassinate Kaiza",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1520,
+            "gold": 1610
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_78",
+            "ene_79",
+            "ene_79"
+        ],
+        "bg": "mission_24",
+        "id": "msn_40",
+        "grade": "b",
+        "name": "Mountain Bandits",
+        "level": 40,
+        "description": "An Intel reports that a group of mountain bandits harass passerby.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1580,
+            "gold": 1700
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_23",
+            "ene_03",
+            "ene_04"
+        ],
+        "bg": "mission_26",
+        "id": "msn_41",
+        "grade": "a",
+        "name": "Concern of Norobi",
+        "level": 41,
+        "description": "As the son of Hokage, Norobi's life is full of 'surprises'!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1660,
+            "gold": 1770
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_31",
+            "ene_54",
+            "ene_54"
+        ],
+        "bg": "mission_33",
+        "id": "msn_42",
+        "grade": "a",
+        "name": "Guard the land of Hisao !",
+        "level": 42,
+        "description": "As the son of Hokage, Norobi's life is full of 'surprises'!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1740,
+            "gold": 1830
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_50",
+            "ene_48",
+            "ene_49"
+        ],
+        "bg": "mission_05",
+        "id": "msn_43",
+        "grade": "a",
+        "name": "The Antique Vase",
+        "level": 43,
+        "description": "Villains are going to break into Kaiza's Mansion to steal an invaluable antique vase!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1820,
+            "gold": 1890
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_78",
+            "ene_78",
+            "ene_79"
+        ],
+        "bg": "mission_07",
+        "id": "msn_44",
+        "grade": "a",
+        "name": "The Fire-Thunder Alliance",
+        "level": 44,
+        "description": "Eliminate the Mountain Bandits who are active at the boundary between the Village of Fire & Thunder.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1900,
+            "gold": 1950
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_43",
+            "ene_44",
+            "ene_30"
+        ],
+        "bg": "mission_08",
+        "id": "msn_45",
+        "grade": "a",
+        "name": "The Mysterious Mist",
+        "level": 45,
+        "description": "Strange mist in the forest... what is going on?",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 1980,
+            "gold": 2000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_69",
+            "ene_69",
+            "ene_69"
+        ],
+        "bg": "mission_26",
+        "id": "msn_46",
+        "grade": "a",
+        "name": "Blacksmith's Trouble",
+        "level": 46,
+        "description": "Help Kenta drive battle dogs away from his place",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2060,
+            "gold": 2080
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_55",
+            "ene_77",
+            "ene_77"
+        ],
+        "bg": "mission_09",
+        "id": "msn_47",
+        "grade": "a",
+        "name": "Assassin's Plot",
+        "level": 47,
+        "description": "Catch the assassins before they can mess up the village!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2140,
+            "gold": 2140
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_19",
+            "ene_20",
+            "ene_21"
+        ],
+        "bg": "mission_33",
+        "id": "msn_48",
+        "grade": "a",
+        "name": "The Criminal Gathering",
+        "level": 48,
+        "description": "Find out the criminals' plan!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2220,
+            "gold": 2200
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_39",
+            "ene_40",
+            "ene_57"
+        ],
+        "bg": "mission_32",
+        "id": "msn_49",
+        "grade": "a",
+        "name": "Kinjutsu: Marionette Control",
+        "level": 49,
+        "description": "The Scroll of Kinjutsu is stolen from Ken!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2300,
+            "gold": 2250
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_36",
+            "ene_28",
+            "ene_28"
+        ],
+        "bg": "mission_30",
+        "id": "msn_50",
+        "grade": "a",
+        "name": "Fierce Cats Gone Wild",
+        "level": 50,
+        "description": "There are too many of them!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2380,
+            "gold": 2300
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_50",
+            "ene_48",
+            "ene_49"
+        ],
+        "bg": "mission_02",
+        "id": "msn_51",
+        "grade": "a",
+        "name": "Hunt the Rebel",
+        "level": 51,
+        "description": "Disunite the rebels before they could do anything.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2460,
+            "gold": 2370
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_108",
+            "ene_107",
+            "ene_109"
+        ],
+        "bg": "mission_32",
+        "id": "msn_52",
+        "grade": "a",
+        "name": "The Dessert Ronins",
+        "level": 52,
+        "description": "A group of ronins are messing around in the dessert!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2540,
+            "gold": 2430
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_53",
+            "ene_52",
+            "ene_54"
+        ],
+        "bg": "mission_32",
+        "id": "msn_53",
+        "grade": "a",
+        "name": "The Soil Intruders",
+        "level": 53,
+        "description": "Intel reports existence of intruders!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2620,
+            "gold": 2500
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_18",
+            "ene_16",
+            "ene_109"
+        ],
+        "bg": "mission_86",
+        "id": "msn_54",
+        "grade": "a",
+        "name": "Fight back for the mining field!",
+        "level": 54,
+        "description": "The mining field is occupied, go and get it back!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2700,
+            "gold": 2550
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_13",
+            "ene_14",
+            "ene_15"
+        ],
+        "bg": "mission_26",
+        "id": "msn_55",
+        "grade": "a",
+        "name": "Save the temple!",
+        "level": 55,
+        "description": "A group of evil monks have occupied a temple, you have to save the temple!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2780,
+            "gold": 2620
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_115",
+            "ene_78",
+            "ene_78"
+        ],
+        "bg": "mission_05",
+        "id": "msn_56",
+        "grade": "a",
+        "name": "Return the valuables",
+        "level": 56,
+        "description": "Return the wrong delivery",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2860,
+            "gold": 2670
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_114",
+            "ene_113",
+            "ene_115"
+        ],
+        "bg": "mission_08",
+        "id": "msn_57",
+        "grade": "a",
+        "name": "Return the valuables",
+        "level": 57,
+        "description": "Return the wrong delivery",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 2940,
+            "gold": 2730
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_111",
+            "ene_110",
+            "ene_112"
+        ],
+        "bg": "mission_03",
+        "id": "msn_58",
+        "grade": "a",
+        "name": "Mystery Shadow",
+        "level": 58,
+        "description": "There are many Soil Ninja working on something in the forest, go and investigate them!  ",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 3020,
+            "gold": 2800
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_131",
+            "ene_132",
+            "ene_133"
+        ],
+        "bg": "mission_83",
+        "id": "msn_59",
+        "grade": "a",
+        "name": "The Legendary Weapon",
+        "level": 59,
+        "description": "Kaiza heard a rumor about the legendary weapon, he is asking you to come with him. Is this a trap?",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 3100,
+            "gold": 2850
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_131",
+            "ene_111",
+            "ene_114"
+        ],
+        "bg": "mission_33",
+        "id": "msn_60",
+        "grade": "a",
+        "name": "The Bandit All Stars",
+        "level": 60,
+        "description": "There is a rumor about the bandit gathering, is this some kind of worst plan?",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 3200,
+            "gold": 3000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_398"
+        ],
+        "bg": "mission_86",
+        "id": "msn_101",
+        "grade": "daily",
+        "name": "Moyai Island",
+        "level": 1,
+        "description": "Find the Hidden Treasure in Moyai Island!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0,
+            "materials": [
+                "material_874",
+                "material_2110"
+            ]
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_06",
+            "ene_06",
+            "ene_06"
+        ],
+        "bg": "mission_05",
+        "id": "msn_102",
+        "grade": "tp",
+        "name": "Loot Gathering 1",
+        "level": 10,
+        "description": "Gather All the Gold!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 30,
+            "ss": 0,
+            "xp": 100,
+            "gold": 7500
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_06",
+            "ene_06",
+            "ene_06"
+        ],
+        "bg": "mission_05",
+        "id": "msn_103",
+        "grade": "tp",
+        "name": "Loot Gathering 2",
+        "level": 15,
+        "description": "Gather All the Gold!",
+        "premium": true,
+        "dialogs": [],
+        "rewards": {
+            "tp": 20,
+            "ss": 0,
+            "xp": 150,
+            "gold": 5000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_06",
+            "ene_06",
+            "ene_06"
+        ],
+        "bg": "mission_05",
+        "id": "msn_104",
+        "grade": "tp",
+        "name": "Loot Gathering 3",
+        "level": 20,
+        "description": "Gather All the Gold!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 30,
+            "ss": 0,
+            "xp": 250,
+            "gold": 20000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_1001",
+            "ene_1001",
+            "ene_1001"
+        ],
+        "bg": "mission_07",
+        "id": "msn_105",
+        "grade": "tp",
+        "name": "Forest Campers 1",
+        "level": 10,
+        "description": "Experienced Assassin Who Lurking in the Forest!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 30,
+            "ss": 0,
+            "xp": 500,
+            "gold": 150
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_1001",
+            "ene_1001",
+            "ene_1001"
+        ],
+        "bg": "mission_07",
+        "id": "msn_106",
+        "grade": "tp",
+        "name": "Forest Campers 2",
+        "level": 15,
+        "description": "Experienced Assassin Who Lurking in the Forest!",
+        "premium": true,
+        "dialogs": [],
+        "rewards": {
+            "tp": 20,
+            "ss": 0,
+            "xp": 1000,
+            "gold": 200
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_1001",
+            "ene_1001",
+            "ene_1001"
+        ],
+        "bg": "mission_07",
+        "id": "msn_107",
+        "grade": "tp",
+        "name": "Forest Campers 3",
+        "level": 20,
+        "description": "Experienced Assassin Who Lurking in the Forest!",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 30,
+            "ss": 0,
+            "xp": 2500,
+            "gold": 280
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_365",
+            "ene_366"
+        ],
+        "bg": "mission_283",
+        "id": "msn_108",
+        "grade": "ss",
+        "name": "Twins Unicorn",
+        "level": 80,
+        "description": "Go to challenge the Patron Saint of the forest",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 30,
+            "xp": 10000,
+            "gold": 10000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [],
+        "bg": "mission_279",
+        "id": "msn_109",
+        "grade": "ss",
+        "name": "Sage Power Seal",
+        "level": 80,
+        "description": "Unseal the scroll and obtain SS.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 30,
+            "xp": 10000,
+            "gold": 10000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [],
+        "bg": "mission_280",
+        "id": "msn_110",
+        "grade": "ss",
+        "name": "Balance Control",
+        "level": 80,
+        "description": "Make the counter balance to earn SS.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 30,
+            "xp": 10000,
+            "gold": 10000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [],
+        "bg": "mission_281",
+        "id": "msn_111",
+        "grade": "ss",
+        "name": "Sage Sealed Boxes",
+        "level": 80,
+        "description": "Unseal the boxes seal to get more SS.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 30,
+            "xp": 10000,
+            "gold": 10000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_443",
+            "ene_442",
+            "ene_444"
+        ],
+        "bg": "mission_01",
+        "id": "msn_112",
+        "grade": "s",
+        "name": "Grade S - Stage 1",
+        "level": 80,
+        "description": "Story intro: master and genin pre-fight, master need to know those genin ability.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 82700,
+            "gold": 5000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_445",
+            "ene_445",
+            "ene_446"
+        ],
+        "bg": "mission_275",
+        "id": "msn_113",
+        "grade": "s",
+        "name": "Grade S - Stage 2",
+        "level": 81,
+        "description": "Story intro: master leads genins for mission.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 88600,
+            "gold": 5300
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_445",
+            "ene_445",
+            "ene_446"
+        ],
+        "bg": "mission_276",
+        "id": "msn_114",
+        "grade": "s",
+        "name": "Grade S - Stage 3",
+        "level": 82,
+        "description": "Story intro: run around and look for the missing genin.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 92580,
+            "gold": 5500
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_445",
+            "ene_445",
+            "ene_446"
+        ],
+        "bg": "mission_277",
+        "id": "msn_115",
+        "grade": "s",
+        "name": "Grade S - Stage 4",
+        "level": 83,
+        "description": "Story intro: Little Mang want to be strong, He went to train by himself, but got caught by rebels.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 95430,
+            "gold": 5600
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_445",
+            "ene_445",
+            "ene_446"
+        ],
+        "bg": "mission_278",
+        "id": "msn_116",
+        "grade": "s",
+        "name": "Grade S - Stage 5",
+        "level": 84,
+        "description": "Story intro: get into enemy cave and get back the Antidote.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 100000,
+            "gold": 5900
+        },
+        "visible": true
+    },
+    {
+        "enemies": [
+            "ene_364",
+            "ene_364",
+            "ene_364"
+        ],
+        "bg": "mission_282",
+        "id": "msn_117",
+        "grade": "ss",
+        "name": "Forest Guardians",
+        "level": 80,
+        "description": "Strong beings inhabit this forest, be cautious.",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 30,
+            "xp": 10000,
+            "gold": 10000
+        },
+        "visible": true
+    },
+    {
+        "enemies": [],
+        "bg": "mission_03",
+        "id": "stage2_1",
+        "grade": "",
+        "name": "Stage 2 Battle 1",
+        "level": 20,
+        "description": "Stage 2 Battle 1",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_03",
+        "id": "stage2_2",
+        "grade": "",
+        "name": "Stage 2 Battle 2",
+        "level": 20,
+        "description": "Stage 2 Battle 2",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_03",
+        "id": "stage3",
+        "grade": "",
+        "name": "Stage 3",
+        "level": 20,
+        "description": "Stage 3",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_24",
+        "id": "stage4",
+        "grade": "",
+        "name": "Stage 4",
+        "level": 20,
+        "description": "Stage 4",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_03",
+        "id": "stage5",
+        "grade": "",
+        "name": "Stage 5",
+        "level": 20,
+        "description": "Stage 5",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_133",
+        "id": "jounin_stage2_1",
+        "grade": "",
+        "name": "Stage 2",
+        "level": 40,
+        "description": "Stage 2",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_133",
+        "id": "jounin_stage2_2",
+        "grade": "",
+        "name": "Stage 2",
+        "level": 40,
+        "description": "Stage 2",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_133",
+        "id": "jounin_stage2_3",
+        "grade": "",
+        "name": "Stage 2",
+        "level": 40,
+        "description": "Stage 2",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_133",
+        "id": "jounin_stage2_4",
+        "grade": "",
+        "name": "Stage 2",
+        "level": 40,
+        "description": "Stage 2",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_135",
+        "id": "jounin_stage4",
+        "grade": "",
+        "name": "Stage 4",
+        "level": 40,
+        "description": "Stage 4",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_136",
+        "id": "jounin_stage5",
+        "grade": "",
+        "name": "Stage 5",
+        "level": 40,
+        "description": "Stage 5",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    },
+    {
+        "enemies": [],
+        "bg": "mission_1002",
+        "id": "temen_berantem",
+        "grade": "",
+        "name": "Challenge Friend",
+        "level": 1,
+        "description": "Challenge Friend",
+        "premium": false,
+        "dialogs": [],
+        "rewards": {
+            "tp": 0,
+            "ss": 0,
+            "xp": 0,
+            "gold": 0
+        },
+        "visible": false
+    }
+]

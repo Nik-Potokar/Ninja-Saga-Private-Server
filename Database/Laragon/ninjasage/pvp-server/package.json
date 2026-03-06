@@ -1,0 +1,19 @@
+{
+  "name": "pvp-server",
+  "version": "1.0.0",
+  "description": "Ninja Sage Live PVP Socket.IO server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.1",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

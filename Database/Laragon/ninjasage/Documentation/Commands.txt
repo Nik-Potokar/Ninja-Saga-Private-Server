@@ -1,0 +1,81 @@
+------------------------- Add Items in Bulk ---------------------------
+
+Open server terminal >>> run command >>> php artisan tinker
+
+// Find your character ID
+App\Models\Character::where('name', 'Aki')->value('id');
+
+// All Skills
+$char = App\Models\Character::find(1);
+$skills = App\Models\Skill::pluck('skill_id');
+foreach ($skills as $s) {
+    App\Models\CharacterSkill::firstOrCreate(['character_id' => $char->id, 'skill_id' => $s]);
+}
+echo "Done";
+
+// All Weapons
+$char = App\Models\Character::find(1);
+$items = App\Models\Item::where('category','weapon')->pluck('item_id');
+foreach ($items as $i) {
+    App\Models\CharacterItem::firstOrCreate(['character_id'=>$char->id,'item_id'=>$i],['quantity'=>1,'category'=>'weapon']);
+}
+echo "Done";
+
+// All Back Items
+$char = App\Models\Character::find(1);
+$items = App\Models\Item::where('category','back')->pluck('item_id');
+foreach ($items as $i) {
+    App\Models\CharacterItem::firstOrCreate(['character_id'=>$char->id,'item_id'=>$i],['quantity'=>1,'category'=>'back']);
+}
+echo "Done";
+
+// All Outfits
+$char = App\Models\Character::find(1);
+$items = App\Models\Item::where('category','set')->pluck('item_id');
+foreach ($items as $i) {
+    App\Models\CharacterItem::firstOrCreate(['character_id'=>$char->id,'item_id'=>$i],['quantity'=>1,'category'=>'set']);
+}
+echo "Done";
+
+// All Accessories
+$char = App\Models\Character::find(1);
+$items = App\Models\Item::where('category','accessory')->pluck('item_id');
+foreach ($items as $i) {
+    App\Models\CharacterItem::firstOrCreate(['character_id'=>$char->id,'item_id'=>$i],['quantity'=>1,'category'=>'accessory']);
+}
+echo "Done";
+
+//All Pets
+$char = App\Models\Character::find(1);
+$pets = App\Models\Pet::pluck('pet_id', 'name');
+foreach ($pets as $name => $id) {
+    App\Models\CharacterPet::firstOrCreate(
+        ['character_id' => $char->id, 'pet_id' => $id],
+        ['name' => $name, 'level' => 1, 'xp' => 0]
+    );
+}
+echo "Done";
+
+---------------- Rank up Exams ----------------
+Each exam stores a comma-separated string in the DB. Values: 0 = locked, 1 = unlocked, 2 = completed.
+
+
+$char = App\Models\Character::where('name', 'Aki')->first();
+
+// Complete all 5 stages instantly
+$char->chunin_exam_progress = '2,2,2,2,1';
+$char->save();
+
+// Then promote (awards set_150, wpn_794, skill_109, 200 tokens)
+// Note: requires rank=1 and level>=20 OR set rank/level first
+$char->rank = 3; $char->chunin_claimed = 1; $char->save();
+
+// Skip requirements - force complete everything in one go:
+$char->level = 20;
+$char->rank  = 1;
+$char->chunin_exam_progress = '2,2,2,2,2';
+$char->save();
+// Now call the promotion service to get the rewards:
+$svc = new App\Services\Amf\ChuninExamService\PromotionService();
+// (requires a live session - just set rank manually instead)
+$char->rank = 3; $char->chunin_claimed = 1; $char->save();
