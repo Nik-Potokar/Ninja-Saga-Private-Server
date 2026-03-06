@@ -1,0 +1,167 @@
+[
+    {
+        "buff": {
+            "description": "Increase damage dealt by 20%",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 999,
+                "effect": "rampage",
+                "effect_name": "Rampage",
+                "passive": false,
+                "type": "Buff",
+                "target": "self"
+            },
+            "name": "Rampage"
+        },
+        "debuff": {
+            "description": "Reduce critical chance by 20% (Applied When Assault Squad is Rank 1).",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "isolate",
+                "effect_name": "Isolate",
+                "passive": false,
+                "type": "Debuff",
+                "target": "enemy"
+            },
+            "name": "Isolate"
+        },
+        "id": "assault"
+    },
+    {
+        "buff": {
+            "description": "Recover HP by 5% every turn.",
+            "effect": {
+                "amount": 5,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "wellness",
+                "effect_name": "Wellness",
+                "passive": false,
+                "type": "Buff",
+                "target": "self"
+            },
+            "name": "Wellness"
+        },
+        "debuff": {
+            "description": "Reduce max CP by 20%. (Applied When Medic Squad is Rank 1).",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "botched",
+                "effect_name": "Botched",
+                "passive": false,
+                "type": "Debuff",
+                "target": "enemy"
+            },
+            "name": "Botched"
+        },
+        "id": "medic"
+    },
+    {
+        "buff": {
+            "description": "Increase dodge rate by 20%.",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "evade",
+                "effect_name": "Evade",
+                "passive": false,
+                "type": "Buff",
+                "target": "self"
+            },
+            "name": "Evade"
+        },
+        "debuff": {
+            "description": "Reduce max HP by 20%. (Applied When HQ Squad is Rank 1).",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "unwell",
+                "effect_name": "Unwell",
+                "passive": false,
+                "type": "Debuff",
+                "target": "enemy"
+            },
+            "name": "Unwell"
+        },
+        "id": "hq"
+    },
+    {
+        "buff": {
+            "description": "Increase reactive force chance by 20%.",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "reflect",
+                "effect_name": "Reflect",
+                "passive": false,
+                "type": "Buff",
+                "target": "self"
+            },
+            "name": "Reflect"
+        },
+        "debuff": {
+            "description": "Decrease damage dealt by 20%. (Applied When Kage Squad is Rank 1).",
+            "effect": {
+                "amount": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "holdback",
+                "effect_name": "Holdback",
+                "passive": false,
+                "type": "Debuff",
+                "target": "enemy"
+            },
+            "name": "Holdback"
+        },
+        "id": "kage"
+    },
+    {
+        "buff": {
+            "description": "Increase max CP by 20%.",
+            "effect": {
+                "amount_cp": 20,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "wider",
+                "effect_name": "Wider",
+                "passive": false,
+                "type": "Buff",
+                "target": "self"
+            },
+            "name": "Wider"
+        },
+        "debuff": {
+            "description": "Reduce purify chance by 15%. (Applied When Ambush Squad is Rank 1).",
+            "effect": {
+                "amount": 15,
+                "calc_type": "percent",
+                "chance": 100,
+                "duration": 1,
+                "effect": "clarify",
+                "effect_name": "Clarify",
+                "passive": false,
+                "type": "Debuff",
+                "target": "enemy"
+            },
+            "name": "Clarify"
+        },
+        "id": "ambush"
+    }
+]
