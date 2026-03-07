@@ -1,6 +1,39 @@
 # Ninja Saga Private Server
 A complete Ninja Saga private server framework including database, custom client, QOL management tools, Live PvP, live chat, clan/crew systems, and an expanded admin panel for managing game data without modifying code.
 
+## 🌿 Branch Status
+
+<p align="center">
+
+![Stable](https://img.shields.io/badge/main-stable-2ea44f?style=for-the-badge)
+![Development](https://img.shields.io/badge/dev-unstable-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active%20development-blue?style=for-the-badge)
+
+</p>
+
+---
+
+### 🟢 `main` — Stable
+
+> **Recommended for most users**
+
+- ✅ **tested**
+- 🔒 Only updated with **verified and stable features**
+
+Use this branch if you want the **most reliable version of the project**.
+
+---
+
+### 🧪 `dev` — Development
+
+> **Latest features, but not always stable**
+
+- 🧩 Contains **new features and experiments**
+- ⚠️ May include **bugs or breaking changes**
+- 🔄 Updated **frequently**
+
+Use this branch if you want to **test new functionality or contribute to development**.
+
 ---
 
 ## Requirements
